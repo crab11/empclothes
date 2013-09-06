@@ -215,6 +215,9 @@ table {
 .contact {
 	margin-bottom: 50px;
 }
+.bear_top {
+	margin-bottom: 30px;
+}
 
 @media print {
   * {
@@ -4920,13 +4923,16 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 2.1428571435;
+	color: inherit;
+	background-color: #eeeeee;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
 }
 
 .jumbotron h1 {
@@ -4939,7 +4945,7 @@ a.list-group-item.active > .badge,
 }
 
 .container .jumbotron {
-  border-radius: 6px;
+	border-radius: 6px;
 }
 
 @media screen and (min-width: 768px) {
